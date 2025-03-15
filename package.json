@@ -1,0 +1,31 @@
+{
+  "name": "cobalt-kit",
+  "description": "Interact with the Cobalt API",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bernzrdo/cobalt-kit.git"
+  },
+  "keywords": [
+    "cobalt"
+  ],
+  "author": "bernzrdo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bernzrdo/cobalt-kit/issues"
+  },
+  "homepage": "https://github.com/bernzrdo/cobalt-kit#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2",
+    "vitepress": "^1.6.3"
+  }
+}

@@ -1,0 +1,9 @@
+docs
+example
+src
+node_modules
+tsconfig.json
+.env
+.github
+bun.lock
+CHANGELOG.md
