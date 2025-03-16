@@ -2,9 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-    title: "cobalt-kit",
-    description: "Interact with the Cobalt API",
-    base: '/cobalt-kit/',
+    title: 'cobalt-kit',
+    description: 'Interact with the Cobalt API',
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
